@@ -4,7 +4,6 @@
 
 [English](README_EN.md)
 
-## 这是什么？
 
 `undergrad-taoci` 是一个面向本科生的 Agent Skill，核心任务是：
 
