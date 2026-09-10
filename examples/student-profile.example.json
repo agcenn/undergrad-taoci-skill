@@ -1,0 +1,38 @@
+{
+  "school": "Example University",
+  "major": "Computer Science",
+  "year": "third-year undergraduate",
+  "gpa": null,
+  "rank": null,
+  "courses": [
+    "Data Structures",
+    "Computer Systems",
+    "Machine Learning"
+  ],
+  "skills": [
+    "Python",
+    "C/C++",
+    "PyTorch",
+    "Git"
+  ],
+  "projects": [
+    {
+      "name": "Kernel Optimization Course Project",
+      "summary": "Implemented and benchmarked several low-level optimization strategies in a course project.",
+      "evidence": [
+        "source code",
+        "benchmark notes"
+      ]
+    }
+  ],
+  "research_interests": [
+    "AI Systems",
+    "efficient inference"
+  ],
+  "target_mentor": null,
+  "target_url": null,
+  "weekly_hours": 8,
+  "duration": "at least one semester",
+  "language": "zh-CN",
+  "notes": "No publication experience. Do not invent one."
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "本科生科研套磁"
+  short_description: "分析导师与本科生背景，生成真实、针对性强的科研套磁信"
+  default_prompt: "根据我的本科生背景和目标导师，找出最可信的套磁切入点，并生成一封简短、具体、不夸大的套磁邮件。"

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Undergraduate Taoci Student Profile",
+  "type": "object",
+  "properties": {
+    "school": {"type": "string"},
+    "major": {"type": "string"},
+    "year": {"type": "string"},
+    "gpa": {"type": ["string", "number", "null"]},
+    "rank": {"type": ["string", "null"]},
+    "courses": {"type": "array", "items": {"type": "string"}},
+    "skills": {"type": "array", "items": {"type": "string"}},
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "summary": {"type": "string"},
+          "evidence": {"type": "array", "items": {"type": "string"}}
+        },
+        "required": ["name", "summary"],
+        "additionalProperties": true
+      }
+    },
+    "research_interests": {"type": "array", "items": {"type": "string"}},
+    "target_mentor": {"type": ["string", "null"]},
+    "target_url": {"type": ["string", "null"]},
+    "weekly_hours": {"type": ["number", "null"], "minimum": 0},
+    "duration": {"type": ["string", "null"]},
+    "language": {"type": ["string", "null"]},
+    "notes": {"type": ["string", "null"]}
+  },
+  "required": ["school", "major", "year"],
+  "additionalProperties": true
+}
